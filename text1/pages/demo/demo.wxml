@@ -1,0 +1,7 @@
+<!--pages/demo/demo.wxml-->
+<text>这是demo页面</text>
+<!-- 数据绑定 -->
+<!-- 事件监听 -->
+<button bindtap='handleclick' size='mini'>{{message}}</button>
+<!-- 列表渲染 -->
+<view wx:for='{{students}}'>{{item.name}}</view>
