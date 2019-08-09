@@ -1,12 +1,11 @@
-// pages/demo1/demo1.js
+// pages/index/index.js
 Page({
 
   /**
    * 页面的初始数据
    */
   data: {
-  message:'点击我开始计数',
-  click:null
+
   },
 
   /**
@@ -63,15 +62,5 @@ Page({
    */
   onShareAppMessage: function () {
 
-  },
-  textclick(){
-    this.setData({
-      message:'我被点击了',
-      click:this.data.click+1
-    })
-  },
-  // getUserRoot(event){
-  // console.log(event)
-  // }
-  // 获取用户信息2
+  }
 })

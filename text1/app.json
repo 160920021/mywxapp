@@ -1,27 +1,11 @@
 {
   "pages": [
-    "pages/demo/demo",
-    "pages/demo1/demo1"
+    "pages/index/index"
   ],
   "window": {
     "backgroundTextStyle": "white",
     "navigationBarBackgroundColor": "#f00",
     "navigationBarTitleText": "我的微信小程序",
     "navigationBarTextStyle": "red"
-  },
-"tabBar": {
-  "list": [{
-    "pagePath": "pages/demo/demo",
-    "text": "首页",
-    "iconPath": "asses/shouye-0.jpg",
-    "selectedIconPath": "asses/shouye-1.jpg"
-  },
-  {
-      "pagePath": "pages/demo1/demo1",
-      "text": "我的",
-      "iconPath": "asses/wode-0.jpg",
-      "selectedIconPath": "asses/wode-1.jpg"  
   }
-  ]
- }
 }
